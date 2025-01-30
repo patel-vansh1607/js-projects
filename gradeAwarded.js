@@ -1,3 +1,5 @@
+//checks for the grade and gives back a comment
+
 function gradeAwarded(number){
     if (number < 0 || number > 100){
         console.log("This is not a possible, an error has occured")
